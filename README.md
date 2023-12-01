@@ -3,7 +3,7 @@ Kernel PCA for Out-of-Distribution Detection
 
 ## Pre-requisite
 Prepare in-distribution and out-distribution data sets following the instructions in [this repo](https://github.com/deeplearning-wisc/knn-ood).
-Then, modify the data paths in `utils——ood.py` and as yours.
+Then, modify the data paths in `utils_ood.py` and as yours.
 
 Download the model files released by [this repo](https://github.com/deeplearning-wisc/knn-ood) and put them as
 ```
