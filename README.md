@@ -17,7 +17,7 @@ The following figure shows that the proposed feature mapping $\Phi$ significantl
 
 ## Pre-requisite
 Prepare in-distribution and out-distribution data sets following the instructions in the [KNN repo](https://github.com/deeplearning-wisc/knn-ood).
-Then, modify the data paths in `utils_ood.py` and as yours.
+Then, modify the data paths in `utils_ood.py` as yours.
 
 Download the model files released by the [KNN repo](https://github.com/deeplearning-wisc/knn-ood) and put them as
 ```
@@ -38,14 +38,14 @@ ood-kernel-pca
 ```
 
 ## Running
-step.1. Run the `feat_extract.sh` to extract the penultimate features
+step.1. Run the `feat_extract.sh` to extract the penultimate features.
 
 step.2. 
 - Run the `run_detection.sh` to obtain the detection results where only the KPCA-based reconstruction error serves as the detection score. 
-- Run the `run_detection_fusion.sh` to obtain the detection results where the fusion strategy combining the KPCA-based reconstruction error and other detection scores (MSP,Energy,ReAct,BATS) is employed.
+- Run the `run_detection_fusion.sh` to obtain the detection results where the KPCA-based reconstruction error is fused with other detection scores (MSP, Energy, ReAct, BATS).
 
 ## 
 
-If u have problems about the code or paper, u could contact me (fanghenshao@sjtu.edu.cn) or raise issues here.
+<!-- If u have problems about the code or paper, u could contact me (fanghenshao@sjtu.edu.cn) or raise issues here. -->
 
 If the code benefits ur researches, welcome to fork and star ⭐ this repo and cite our paper! :)
