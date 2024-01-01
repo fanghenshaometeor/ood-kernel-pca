@@ -19,7 +19,7 @@ The following figure shows that the proposed feature mapping $\Phi$ significantl
 Prepare in-distribution and out-distribution data sets following the instructions in the [KNN repo](https://github.com/deeplearning-wisc/knn-ood).
 Then, modify the data paths in `utils_ood.py` as yours.
 
-Download the model checkpoints released by the [KNN repo](https://github.com/deeplearning-wisc/knn-ood) and put them as
+Only for experiments on CIFAR10 and ImageNet of supervised contrastive learning, download the model checkpoints released by the [KNN repo](https://github.com/deeplearning-wisc/knn-ood) and put them as
 ```
 ood-kernel-pca
 ├── model
