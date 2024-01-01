@@ -1,7 +1,7 @@
 # ======== FUSION with MSP, Energy, ReAct, BATS
 
 # ---- CoP+MSP/Energy/ReAct/BATS on R50 and MNet
-for fmethod in MSP Energy
+for fmethod in MSP Energy ReAct BATS
 do
 
 CUDA_VISIBLE_DEVICES=0 python CoP_CoRP_fusion.py \

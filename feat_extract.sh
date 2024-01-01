@@ -4,11 +4,11 @@ do
 
 CUDA_VISIBLE_DEVICES=0 python feat_extract.py \
  --arch R18 --in_data CIFAR10 --out_data ${out_data} \
- --model_path "./save/CIFAR10/R18/ce/checkpoint_100.pth.tar"
+ --model_path ./save/CIFAR10/R18/ce/checkpoint_100.pth.tar
 
 CUDA_VISIBLE_DEVICES=0 python feat_extract.py \
  --arch R18 --in_data CIFAR10 --out_data ${out_data} \
- --model_path "./save/CIFAR10/R18/supcon/checkpoint_500.pth.tar" --supcon # supervised constrastive learning
+ --model_path ./save/CIFAR10/R18/supcon/checkpoint_500.pth.tar --supcon # supervised constrastive learning
 
 done
 

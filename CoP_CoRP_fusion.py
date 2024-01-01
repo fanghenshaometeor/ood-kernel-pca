@@ -113,7 +113,7 @@ if not os.path.exists(args.error_path):
         print()
         print("Features processed via BATS: CUT FEAT according to MEAN and VAR.")
         lam = 1.05
-        feature_info = np.load(os.path.join(args.logs_dir,args.dataset,args.arch,'fusion',"bats-feat-info.npz"), allow_pickle=True)
+        feature_info = np.load(os.path.join("utils_bats","bats-feat-info-{}.npz".format(args.arch)), allow_pickle=True)
         feature_mean = feature_info['feat_mean'].astype(np.float32)
         feature_std = feature_info['feat_std'].astype(np.float32)
         top_clip = lambda x: np.where(x<(feature_std*lam+feature_mean),x,feature_std*lam+feature_mean)
