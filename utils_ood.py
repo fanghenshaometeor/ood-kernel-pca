@@ -234,7 +234,7 @@ def val_ood_fuse(net, in_loader, out_loader, error_in, error_out, args):
     elif args.fmethod == 'BATS':
         if args.in_data == 'ImageNet':
             lam = 1.05
-            feature_info = np.load(os.path.join(args.logs_dir,args.dataset,args.arch,'fusion',"bats-feat-info.npz"), allow_pickle=True) # .cuda()
+            feature_info = np.load(os.path.join("utils_bats","bats-feat-info-{}.npz".format(args.arch)), allow_pickle=True) # .cuda()
             feature_mean = torch.from_numpy(feature_info['feat_mean'].astype(np.float32)).cuda()
             feature_std = torch.from_numpy(feature_info['feat_std'].astype(np.float32)).cuda()
         print("Processing in-distribution data...")
