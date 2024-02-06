@@ -1,5 +1,5 @@
 # ood-kernel-pca
-Kernel PCA for Out-of-Distribution Detection
+This is the official PyTorch implementation of the paper [Kernel PCA for Out-of-Distribution Detection](https://arxiv.org/abs/2402.02949).
 
 ## KPCA for OoD detection in a nutshell
 
