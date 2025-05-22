@@ -1,9 +1,9 @@
 # Kernel PCA for Out-of-Distribution Detection
-This is the official PyTorch implementation of the NeurIPS'24 paper [*Kernel PCA for Out-of-Distribution Detection*](https://papers.nips.cc/paper_files/paper/2024/file/f2543511e5f4d4764857f9ad833a977d-Paper-Conference.pdf).
+This is the official PyTorch implementation of the NeurIPS'24 paper [*Kernel PCA for Out-of-Distribution Detection*](https://proceedings.neurips.cc/paper_files/paper/2024/hash/f2543511e5f4d4764857f9ad833a977d-Abstract-Conference.html).
 
 If our work benefits your researches, welcome to cite our paper!
 ```
-@inproceedings{NEURIPS2024_f2543511,
+@inproceedings{fang2024kpcaood,
  author = {Fang, Kun and Tao, Qinghua and Lv, Kexin and He, Mingzhen and Huang, Xiaolin and YANG, JIE},
  booktitle = {Advances in Neural Information Processing Systems},
  editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
@@ -16,6 +16,9 @@ If our work benefits your researches, welcome to cite our paper!
 }
 
 ```
+## NEWS
+*2025-05* Welcome to follow our extended work: *Kernel PCA for Out-of-Distribution Detection: Non-Linear Kernel Selections and Approximations* ([arxiv](https://arxiv.org/abs/2505.15284), [code](https://github.com/fanghenshaometeor/ood-kpca-extension)).
+
 
 ## KPCA for OoD detection in a nutshell
 
