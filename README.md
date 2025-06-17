@@ -28,7 +28,7 @@ url = {https://arxiv.org/abs/2505.15284},
 }
 ```
 ## NEWS
-*2025-05* Welcome to follow our extended work: *Kernel PCA for Out-of-Distribution Detection: Non-Linear Kernel Selections and Approximations* ([arxiv](https://arxiv.org/abs/2505.15284), [code](https://github.com/fanghenshaometeor/ood-kpca-extension)).
+*2025-05* Glad to recommend our extended work: *Kernel PCA for Out-of-Distribution Detection: Non-Linear Kernel Selections and Approximations* ([arxiv](https://arxiv.org/abs/2505.15284), [code](https://github.com/fanghenshaometeor/ood-kpca-extension)), which provides a comprehensive framework on KPCA for OoD detection beyond prior explorations.
 
 
 ## KPCA for OoD detection in a nutshell
