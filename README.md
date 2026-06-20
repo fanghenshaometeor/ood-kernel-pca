@@ -7,9 +7,7 @@ If our work benefits your researches, welcome to cite our paper!
 author = {Fang, Kun and Tao, Qinghua and Lv, Kexin and He, Mingzhen and Huang, Xiaolin and YANG, JIE},
 booktitle = {Advances in Neural Information Processing Systems},
 pages = {134317--134344},
-publisher = {Curran Associates, Inc.},
 title = {Kernel PCA for Out-of-Distribution Detection},
-url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/f2543511e5f4d4764857f9ad833a977d-Paper-Conference.pdf},
 volume = {37},
 year = {2024}
 }
@@ -27,7 +25,7 @@ url = {https://arxiv.org/abs/2505.15284},
 }
 ```
 ## NEWS
-*2025-05* Glad to recommend our extended work: *Kernel PCA for Out-of-Distribution Detection: Non-Linear Kernel Selections and Approximations* ([arxiv](https://arxiv.org/abs/2505.15284), [code](https://github.com/fanghenshaometeor/ood-kpca-extension)), which provides a comprehensive framework on KPCA for OoD detection beyond prior explorations.
+*2025-05* Glad to recommend our extended work: *Kernel PCA for Out-of-Distribution Detection: Non-Linear Kernel Selection and Approximation* ([arxiv](https://arxiv.org/abs/2505.15284), [code](https://github.com/fanghenshaometeor/ood-kernel-pca-ext)), which provides a comprehensive framework on KPCA for OoD detection beyond prior explorations.
 
 
 ## KPCA for OoD detection in a nutshell
