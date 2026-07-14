@@ -14,17 +14,18 @@ year = {2024}
 ```
 
 ```
-@misc{fang2025kpcaood,
-title = {Kernel PCA for Out-of-Distribution Detection: Non-Linear Kernel Selections and Approximations}, 
-author = {Kun Fang and Qinghua Tao and Mingzhen He and Kexin Lv and Runze Yang and Haibo Hu and Xiaolin Huang and Jie Yang and Longbin Cao},
-year = {2025},
-eprint = {2505.15284},
-archivePrefix = {arXiv},
-primaryClass = {cs.LG},
-url = {https://arxiv.org/abs/2505.15284}, 
+@ARTICLE{11573215,
+author={Fang, Kun and Tao, Qinghua and He, Mingzhen and Lv, Kexin and Yang, Runze and Hu, Haibo and Huang, Xiaolin and Yang, Jie and Cao, Longbing},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+title={Kernel PCA for Out-of-Distribution Detection: Non-Linear Kernel Selection and Approximation}, 
+year={2026},
+pages={1-16},
+doi={10.1109/TPAMI.2026.3705778}
 }
 ```
 ## NEWS
+*2026-06* Glad to announce that our extended work, ''*Kernel PCA for Out-of-Distribution Detection: Non-Linear Kernel Selection and Approximation*'', has been accepted by IEEE TPAMI ([journal](https://doi.org/10.1109/TPAMI.2026.3705778))! We highly recommend referring to this version, which includes a thorough study and a well-organized code implementation.
+
 *2025-05* Glad to recommend our extended work: *Kernel PCA for Out-of-Distribution Detection: Non-Linear Kernel Selection and Approximation* ([arxiv](https://arxiv.org/abs/2505.15284), [code](https://github.com/fanghenshaometeor/ood-kernel-pca-ext)), which provides a comprehensive framework on KPCA for OoD detection beyond prior explorations.
 
 
