@@ -24,7 +24,7 @@ doi={10.1109/TPAMI.2026.3705778}
 }
 ```
 ## NEWS
-*2026-06* Glad to announce that our extended work, ''*Kernel PCA for Out-of-Distribution Detection: Non-Linear Kernel Selection and Approximation*'', has been accepted by IEEE TPAMI ([journal](https://doi.org/10.1109/TPAMI.2026.3705778))! We highly recommend referring to this version, which includes a thorough study and a well-organized code implementation.
+*2026-06* Glad to announce that our extended work, ''*Kernel PCA for Out-of-Distribution Detection: Non-Linear Kernel Selection and Approximation*'', has been accepted by IEEE TPAMI ([journal](https://doi.org/10.1109/TPAMI.2026.3705778))! ***We highly recommend referring to this version, which includes a thorough study and a well-organized code implementation***.
 
 *2025-05* Glad to recommend our extended work: *Kernel PCA for Out-of-Distribution Detection: Non-Linear Kernel Selection and Approximation* ([arxiv](https://arxiv.org/abs/2505.15284), [code](https://github.com/fanghenshaometeor/ood-kernel-pca-ext)), which provides a comprehensive framework on KPCA for OoD detection beyond prior explorations.
 
