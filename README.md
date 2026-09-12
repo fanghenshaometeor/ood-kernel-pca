@@ -1,25 +1,28 @@
 # Kernel PCA for Out-of-Distribution Detection
 This is the official PyTorch implementation of the NeurIPS'24 paper [*Kernel PCA for Out-of-Distribution Detection*](https://proceedings.neurips.cc/paper_files/paper/2024/hash/f2543511e5f4d4764857f9ad833a977d-Abstract-Conference.html).
 
-If our work benefits your researches, welcome to cite our paper!
+If our work is helpful to your research, **please cite both the conference paper and its journal version**! Thank you very much!
 ```
-@inproceedings{fang2024kpcaood,
-author = {Fang, Kun and Tao, Qinghua and Lv, Kexin and He, Mingzhen and Huang, Xiaolin and YANG, JIE},
-booktitle = {Advances in Neural Information Processing Systems},
-pages = {134317--134344},
-title = {Kernel PCA for Out-of-Distribution Detection},
-volume = {37},
-year = {2024}
+@inproceedings{kpcaood2024,
+author={Fang, Kun and Tao, Qinghua and Lv, Kexin and He, Mingzhen and Huang, Xiaolin and YANG, JIE},
+booktitle={Advances in Neural Information Processing Systems},
+pages={134317--134344},
+title={Kernel PCA for Out-of-Distribution Detection},
+volume={37},
+year={2024},
+doi={10.52202/079017-4268}
 }
 ```
 
 ```
-@ARTICLE{11573215,
+@ARTICLE{kpcaood2026,
 author={Fang, Kun and Tao, Qinghua and He, Mingzhen and Lv, Kexin and Yang, Runze and Hu, Haibo and Huang, Xiaolin and Yang, Jie and Cao, Longbing},
 journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
 title={Kernel PCA for Out-of-Distribution Detection: Non-Linear Kernel Selection and Approximation}, 
 year={2026},
-pages={1-16},
+volume={48},
+number={10},
+pages={13220-13235},
 doi={10.1109/TPAMI.2026.3705778}
 }
 ```
